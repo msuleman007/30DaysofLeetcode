@@ -1,13 +1,13 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-       string s = to_string(x);
-       vector <char> xS;
-       for(char c: s){
-            xS.push_back(c);
-       }
-       vector <char> rev = xS;
-       reverse(rev.begin(),rev.end());
-       return rev == xS;
+        int ogX = x;
+        long revNo = 0;
+        while( x> 0){
+            int lastDig = x%10;
+            revNo = revNo * 10 +lastDig;
+            x/=10;
+        }
+        return ogX == revNo;
     }
 };
