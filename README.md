@@ -1,2 +1,2 @@
 # Challenge
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+30 Days LeetCode Challenge organized by Google Developer Student Club COMSATS
