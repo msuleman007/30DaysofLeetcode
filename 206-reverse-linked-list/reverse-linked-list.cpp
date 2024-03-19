@@ -17,10 +17,10 @@ public:
 
         ListNode* prev = NULL;
         ListNode* curr = head;
-        ListNode* next = NULL;
+        
 
         while(curr!=NULL){
-            next = curr->next;
+            ListNode* next = curr->next;
             curr->next = prev;
             prev = curr;
             curr=next;
